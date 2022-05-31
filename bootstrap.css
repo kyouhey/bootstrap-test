@@ -1,0 +1,41 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* ------ナビゲーション------*/
+.navbar_brand_logo {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.my_navbar_brand,
+.my_nav_link {
+  font-size: 15px;
+  font-family: Georgia, serif;
+  color: #000000;
+}
+
+/*-------カルーセル------*/
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
